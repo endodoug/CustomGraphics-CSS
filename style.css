@@ -49,6 +49,14 @@ section h3 {
 
 section p { margin: 0; }
 
+section figure {
+    margin: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 1);
+}
+
 
 
 
