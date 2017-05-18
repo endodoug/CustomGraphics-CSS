@@ -65,21 +65,41 @@ section figure {
     left: 0px;
 }
 
-section figure:: after {
+section figure::after {
     content: '';
     display: block;
     width: 8px;
     height: 8px;
     background-color: red;
     border-radius: 50%;
-    border; 2px solid #
-    
-    
+    border: 2px solid #fff;
+    box-shadow: 0px 0px 5px #000;
+    position: absolute;
 }
 
+section[data-city="riodejaneiro"] figure {
+    background-position: -15px 0;
+}
 
+section[data-city="riodejaneiro"] figure::after {
+    top: 68px; left: 40px;
+}
 
+section[data-city="philadelphia"] figure {
+    background-position: 18px 0;
+}
 
+section[data-city="philadelphia"] figure::after {
+    top: 25px; left: 55px;
+}
+
+section[data-city="johannesburg"] figure {
+    background-position: -60px 0;
+}
+
+section[data-city="johannesburg"] figure::after {
+    top: 70px; left: 42px;
+}
 
 
 
