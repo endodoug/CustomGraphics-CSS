@@ -65,6 +65,18 @@ section figure {
     left: 0px;
 }
 
+section figure:: after {
+    content: '';
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: red;
+    border-radius: 50%;
+    border; 2px solid #
+    
+    
+}
+
 
 
 
