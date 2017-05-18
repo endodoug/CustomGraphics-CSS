@@ -54,7 +54,12 @@ section figure {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background-color: rgba(255, 255, 255, 1);
+    background: rgba(255, 255, 255, .35) url(images/world.png) repeat-x 0 0;
+    background-size: auto 100px;
+    box-shadow:
+        inset -6px -9px 25px rgba(0,0,0,.6),
+        inset 6px 12px 25px rgba(255,255,255,.6),
+        0px 8px 8px rgba(0,0,0,.2);
 }
 
 
